@@ -1,7 +1,10 @@
-#include <iostream>
+#include <stdio.h>
 
-int main()
+void main(void)
 {
     char zona;
-    float SueldoBruto, sueldoNeto, porcentaje;
+    float sueldoBruto, sueldoNeto, porcentaje;
+
+    printf("Sueldo: ");
+    scanf_s("%f", &sueldoBruto);
 }
