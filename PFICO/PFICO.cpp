@@ -23,7 +23,21 @@ void main(void)
         else
         {
             if (sueldoBruto >=3000||sueldoBruto<5000)
-            { }
+            {
+                porcentaje = .2;
+            }
+            else
+            {
+                if (sueldoBruto >= 5000) 
+                { 
+                    porcentaje = .333; 
+                }
+                else 
+                {
+                    porcentaje = 0;
+                }
+
+            }
         }
     }
 }
