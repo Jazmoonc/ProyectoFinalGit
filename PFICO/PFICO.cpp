@@ -16,13 +16,13 @@ void main(void)
     //Se empieza un estructura de control 
     if (zona == 'A')
     {
-        if (sueldoBruto >= 1850 || sueldoBruto < 3000)
+        if (sueldoBruto >= 1850 && sueldoBruto < 3000)
         {
             porcentaje = .1;
         }
         else
         {
-            if (sueldoBruto >=3000||sueldoBruto<5000)
+            if (sueldoBruto >=3000 && sueldoBruto<5000)
             {
                 porcentaje = .2;
             }
@@ -38,6 +38,17 @@ void main(void)
                 }
 
             }
+        }
+    }
+    else 
+    {
+        if (sueldoBruto >= 1850 && sueldoBruto < 2500) 
+        {
+            porcentaje = .1;
+        }
+        else 
+        {
+            if
         }
     }
 }
