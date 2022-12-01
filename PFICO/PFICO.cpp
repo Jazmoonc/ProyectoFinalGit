@@ -65,4 +65,8 @@ void main(void)
             }
         }
     }
+
+    //Para determinar el sueldo final
+    sueldoNeto = sueldoBruto - sueldoBruto * porcentaje;
+    printf("Sueldo: %10.2f", sueldoNeto);
 }
